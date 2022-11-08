@@ -1,0 +1,89 @@
+.help {
+    margin: 50px 0;
+
+    .wrapper {
+        display: flex;
+        flex: 1 1;
+        justify-content: space-between;
+    }
+
+    &__info {
+        margin-right: 103px;
+    }
+
+    &__subtitle {
+        margin-top: 379px;
+        font-size: 13px;
+        line-height: 140%;
+        color: #888888;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-family: 'GolosBold';
+    }
+
+    &__title {
+        margin-top: 9px;
+        font-size: 29px;
+        line-height: 116%;
+        font-family: 'GolosBold';
+        color: $main-dark-blue;
+        max-width: 280px;
+    }
+
+    &__desc {
+        margin-top: 16px;
+        max-width: 280px;
+        font-size: 15px;
+        line-height: 174%;
+        color: #404040;
+    }
+
+    &__wrap {
+        transform: translateY(-64%);
+    }
+
+    &__img {
+        transform: translateY(-47%);
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    &__card {
+        margin-top: 160px;
+        max-width: 384px;
+        max-height: 465px;
+        background-color: #F2F6FB;
+        cursor: pointer;
+
+
+
+
+        &-title {
+            margin-top: 28px;
+            padding-left: 32px;
+            max-width: 250px;
+            font-size: 24px;
+            line-height: 110%;
+            color: #1E1E1E;
+            font-family: 'GolosBold';
+        }
+
+        &-desc {
+            margin: 16px 0 40px 32px;
+            max-width: 300px;
+            font-size: 15px;
+            line-height: 174%;
+            color: #404040;
+        }
+
+        button {
+            margin-left: 32px;
+        }
+    }
+
+
+
+}

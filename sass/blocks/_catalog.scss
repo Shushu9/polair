@@ -1,0 +1,28 @@
+.catalog {
+    background: url('/img/berries-bg.jpg') center center/cover no-repeat;
+    padding: 160px 0 48px 0;
+
+    &__card {
+        padding-left: 40px;
+        padding-bottom: 54px;
+        background: #F2F6FB;
+        max-width: 432px;
+    }
+
+    &__title {
+        padding-top: 40px;
+        font-size: 29px;
+        line-height: 116%;
+        font-family: 'GolosBold';
+        color: $main-dark-blue;
+    }
+
+    &__subtitle {
+        padding: 15px 30px 54px 0;
+        font-size: 15px;
+        line-height: 174%;
+        color: #404040;
+    }
+
+
+}

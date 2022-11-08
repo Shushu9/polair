@@ -1,0 +1,59 @@
+.standarts {
+    display: flex;
+
+    &__picture {
+        width: 50%;
+        max-height: 450px;
+        background: url('/img/berries-plate.jpg') center center/cover no-repeat;
+        // img {
+        //     width: 100%;
+        //     height: 100%;
+        //     // max-width: 100%;
+
+        // }
+    }
+
+    &__texst {
+        width: 50%;
+        background-color: #F2F6FB;
+        padding: 105px 10px 105px 83px;
+        padding-bottom: 105px;
+        padding-top: 105px;
+    }
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 140%;
+        color: #888888;
+        font-family: 'GolosBold';
+        letter-spacing: 0.08em;
+    }
+
+    &__title {
+        padding-top: 7px;
+        font-size: 29px;
+        line-height: 116%;
+        color: $main-dark-blue;
+        font-family: 'GolosBold';
+    }
+
+    &__desc {
+        padding: 16px 0 32px 0;
+        font-size: 15px;
+        line-height: 174%;
+        color: #404040;
+        max-width: 410px;
+    }
+
+    &__link {
+        position: relative;
+        font-size: 15px;
+        line-height: 148%;
+        color: #1E1E1E;
+
+        img {
+            transform: rotate(-90deg);
+        }
+    }
+}

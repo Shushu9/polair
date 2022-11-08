@@ -1,0 +1,66 @@
+/* Regular */
+
+@font-face {
+    font-family: 'Golos';
+    src: local('GolosText'),
+        url('../fonts/GolosText-Regular.ttf') format('truetype'),
+        url('../fonts/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Bold */
+
+@font-face {
+    font-family: 'GolosBold';
+    src: local('GolosText'),
+        url('../fonts/GolosText-Bold.ttf') format('truetype'),
+        url('../fonts/GolosText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: bold;
+}
+
+
+@import 'base/variables';
+@import 'libs/slick';
+@import 'libs/scrollAnimation';
+
+
+* {
+    font-family: 'Golos';
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/products';
+@import 'blocks/stats';
+@import 'blocks/standarts';
+@import 'blocks/help';
+@import 'blocks/news';
+@import 'blocks/catalog';
+@import 'blocks/brands';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'blocks/modal';
+@import 'blocks/media';
+
+
+
+
+
+// @import 'blocks/pageup';
